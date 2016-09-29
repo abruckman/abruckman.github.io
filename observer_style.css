@@ -1,3 +1,50 @@
 h1 {
-	background-color: red;
+	font-family: Impact, Charcoal, sans-serif ;
+}
+
+p {
+	max-width: 50em;
+	font-size: 125%;
+}
+
+.defender{
+	padding: 10px;
+	border: 1px black;
+}
+
+ul {
+	max-width: 50em;
+}
+li {
+	padding-bottom: 10px;
+}
+
+.warning{
+	font-family: "Courier New", Courier, monospace;
+	color: maroon;
+}
+
+
+table, tr, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table{
+	border: 3px solid black;
+}
+
+tr{
+	height:25px;
+}
+
+.evenrow{
+	background-color: #fcf497;
+
+}
+.oddrow{
+	background-color: #a9fcfc;
+}
+footer{
+	margin: 0 auto;
 }
