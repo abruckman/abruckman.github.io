@@ -1,19 +1,25 @@
+body{
+	max-width:70em;
+}
+
 h1 {
 	font-family: Impact, Charcoal, sans-serif ;
 }
 
 p {
-	max-width: 50em;
-	font-size: 125%;
+	width:80%;
+	font-size: 125%
+	margin: auto;
 }
 
 .defender{
 	padding: 10px;
 	border: 1px black;
+	width:95%;
 }
 
 ul {
-	max-width: 50em;
+	max-width: 80%;
 }
 li {
 	padding-bottom: 10px;
@@ -34,6 +40,10 @@ table{
 	border: 3px solid black;
 }
 
+figure{
+	width:90%;
+}
+
 tr{
 	height:25px;
 }
@@ -47,7 +57,7 @@ tr{
 }
 
 footer{
-	max-width: 40em;
+	max-width: 50em;
 	margin: auto;
 }
 
