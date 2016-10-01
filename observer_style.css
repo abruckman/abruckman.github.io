@@ -1,5 +1,6 @@
 body{
 	max-width:70em;
+	margin:auto;
 }
 
 h1 {
@@ -8,13 +9,13 @@ h1 {
 
 p {
 	width:80%;
-	font-size: 125%
-	margin: auto;
+	font-size: 125%;
+	
 }
 
 .defender{
 	padding: 10px;
-	border: 1px black;
+	border: 1px solid black;
 	width:95%;
 }
 
@@ -63,4 +64,29 @@ footer{
 
 figcaption{
 	max-width: 40em;
+}
+
+.gears{
+	background-image: url("ballyhoovista.jpg");
+	background-repeat:no-repeat;
+	max-width: 500px;
+}
+p.warning{
+	margin:3px;
+	padding:5px;
+	border:1px solid black;
+}
+a:visited{
+	color:orange;
+}
+@media screen and (max-width: 400px) {
+	h1{
+		font-size: 1.5em
+	}
+	h2 {
+		font-size: 1em;
+	}
+	p{
+		font-size: .75em;
+	}
 }
