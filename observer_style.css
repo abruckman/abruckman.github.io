@@ -45,6 +45,12 @@ tr{
 .oddrow{
 	background-color: #a9fcfc;
 }
+
 footer{
-	margin: 0 auto;
+	max-width: 40em;
+	margin: auto;
+}
+
+figcaption{
+	max-width: 40em;
 }
